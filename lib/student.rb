@@ -16,7 +16,10 @@ class Student
   
   def self.create_table
     sql = <<-SQL
-    CREATE TABLE IF 
+      id INTEGER PRIMARY KEY,
+        name TEXT,
+        album TEXT
+        )
     
     SQL
   
