@@ -67,7 +67,7 @@ class Student
     WHERE name = ?
     SQL
     
-    find_by_name = DB[:conn].execute(sql)
+    find_by_name = DB[:conn].execute(sql, name)
     self.new_from_db(find_by_name)
     
   end
