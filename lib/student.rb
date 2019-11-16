@@ -69,9 +69,7 @@ class Student
     SQL
     
     find_by_name = DB[:conn].execute(sql, name)[0]
-    binding.pry
     self.new_from_db(find_by_name)
-    
   end
     
     
