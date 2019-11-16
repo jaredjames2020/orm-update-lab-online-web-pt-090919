@@ -58,9 +58,9 @@ class Student
   
   def self.new_from_db(new_student_from_db)
     new_student = self.new(ew_student_from_db[0], new_student_from_db[1], new_student_from_db[2])
-    new_student.id = new_student_from_db[0]
-    new_student.name =  new_student_from_db[1]
-    new_student.grade = new_student_from_db[2]
+    # new_student.id = new_student_from_db[0]
+    # new_student.name =  new_student_from_db[1]
+    # new_student.grade = new_student_from_db[2]
     new_student
   end
     
